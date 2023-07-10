@@ -1,0 +1,44 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+
+  .input {
+    margin: 5px 0;
+    border-radius: 5px;
+    border: navajowhite;
+    padding: 5px;
+    color: #4b4b4b;
+    width: 100%;
+    box-sizing: border-box;
+
+    &:focus {
+      border: none;
+      outline: none;
+    }
+  }
+  .button {
+    width: 100%;
+    background-color: rgb(255, 0, 81);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.8s;
+
+    &:hover {
+      background-color: rgb(64, 0, 255);
+      color: #fff;
+    }
+  }
+  .password {
+    position: relative;
+    .icons {
+      position: absolute;
+      cursor: pointer;
+      color: #6a6363;
+      top: 7px;
+      right: 5px;
+    }
+  }
+}
